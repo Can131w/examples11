@@ -12,10 +12,10 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI Grubunuzun sesli sohbetinde müzik çalabilirim
-Benim Tarafımdan korunur @yoksunhala  ❤
-\nTo adresinden bize ulaşın. @CanmuzikSupport
-\nKullanılabilir komutların /help listesine basın..
+\nI can play music in your group's voice chat
+Maintained by @HEROGAMERS1 ❤
+\nTo add in your group contact us at @AwesomeSupport.
+\nHit /help list of available commands.
  </b>""",
       
        
@@ -23,23 +23,23 @@ Benim Tarafımdan korunur @yoksunhala  ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🎧 Müzik dünyası", url="https://t.me/joinchat/31ibrhlU0SQ1ZjI0",
+                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Grup", url="https://t.me/joinchat/31ibrhlU0SQ1ZjI0"
+                        "💬 Group", url="https://t.me/AwesomeSupport"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Kanal", url="https://t.me/CanmuzikSupport"
+                        "🔊 Channel", url="https://t.me/LaylaList"
                     ),
                     InlineKeyboardButton(
-                        "💾 Kaynak Kodu ", url="https://github.com/can131w"
+                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ EKLE GRUBA ➕", url="https://t.me/Lgmuzik_bot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,10 +58,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Kanal", url="https://t.me/CanmuzikSupport"
+                        "🔊 Channel", url="https://t.me/LaylaList"
                     ),
                     InlineKeyboardButton(
-                        "💬 Grup", url="https://t.me/joinchat/31ibrhlU0SQ1ZjI0"
+                        "💬 Group", url="https://t.me/AwesomeSupport"
                     )
                 ],    
                 [    
@@ -107,12 +107,12 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "👥 Kanal ", url="https://t.me/CanmuzikSupport"
+                        "🔊 Channel", url="https://t.me/LaylaList"
                     ),
                     InlineKeyboardButton(
-                        "🗣️ Grup", url="https://t.me/CanmuzikSupport"
+                        "💬 Group", url="https://t.me/AwesomeSupport"
                     )
                 ]
             ]
         )
-    )
+    )    
